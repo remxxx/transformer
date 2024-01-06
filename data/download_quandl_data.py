@@ -7,7 +7,7 @@ import os
 DEPTH = 1
 
 def main(api_key: str):
-    quandl.ApiConfig.api_key = api_key
+    quandl.ApiConfig.api_key = "Wpftjh2wViTfhst-4EEY"
 
     if not os.path.exists(os.path.join("data", "quandl")):
         os.mkdir(os.path.join("data", "quandl"))
@@ -48,3 +48,6 @@ if __name__ == "__main__":
         )
     
     main(*get_args())
+    
+
+

@@ -102,3 +102,5 @@ Werkzeug # ==2.0.1
 wheel # ==0.36.2
 wrapt # ==1.13.3
 yfinance # ==0.1.63
+settings
+
